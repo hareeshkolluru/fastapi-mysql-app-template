@@ -1,0 +1,29 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--config=.config/.flake8"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--rcfile=.config/.pylintrc"
+    ],
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pydocstyleArgs": [
+        "--config=.config/.pydocstyle"
+    ],
+    "editor.formatOnSave": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyArgs": [
+        "--config-file=.config/mypy.ini"
+    ],
+    "rewrap.wrappingColumn": 79,
+    "python.pythonPath": "venv/bin/python",
+    "python.formatting.provider": "black",
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.linting.pycodestyleEnabled": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+}
